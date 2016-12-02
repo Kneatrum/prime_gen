@@ -9,10 +9,10 @@ def generate_prime(number):
 		               if (sample % x) == 0: # if a (sample) number is divisible by any other number apart from 1 and itelf
 		                   break # break the loop
 		           else:
-		               print(sample)
+		               print(sample) # Print the prime number
 		else:
-			print ("Insert a number greater than 1")
+			print ("Insert a number greater than 1") # Display an error when a number less than 2 is passed in.
 	else:
-		print ("Please insert a number")
+		print ("Please insert a number") # Display an error when a character is passed in as an argument.
 
 generate_prime(1)
